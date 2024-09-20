@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.container{
+    box-shadow: 1px 1px 2px 5px hsla(222, 100%, 96%, 0.712);
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bluebox{
+    height: 500px;
+    width: 350px;
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to top,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius:25px;
+    border: none;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    background-image: linear-gradient(to bottom,rgba(78, 33, 202, 0.42),hsla(241, 72%, 46%, 0));
+    text-align: center;
+}
+.rightbox{
+    width:350px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rightbox h3{
+    margin-top: 30px;
+}
+
+.summary{
+    font-size: 20px;
+    color: black;
+}
+h2{
+    font-size: 80px;
+    padding-top: 45px;
+    margin: 0;
+}
+h4{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.545);
+    padding: 0;
+    margin: 0;
+}
+
+
+.continue{
+    width: 270px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    font-size: medium;
+}
+.but1{
+    background-color: hsla(0, 100%, 67%, 0.362);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsla(0, 100%, 67%);
+    justify-content: space-around;
+}
+.but2{
+    background-color:hsla(39, 100%, 56%, 0.295);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(39, 100%, 56%);
+    justify-content: space-around;
+}
+.but3{
+    background-color:hsl(166, 100%, 37%, 0.295);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(166, 100%, 37%);
+    justify-content: space-around;
+}
+.but4{
+    background-color:hsl(234, 85%, 45%, 0.295);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:hsl(234, 85%, 45%);
+    justify-content: space-around;
+}
